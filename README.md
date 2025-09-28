@@ -6,6 +6,9 @@ along with over 100,000+ movies/shows with a simple search fucntion. Each movie 
 rating, original language, and the release date. 
 
 
+###
+
+
 🚀 Features
 - Display real-time trending movies in Canada, with the top 4 ranked
 - Search functionality to find movies by title
@@ -19,9 +22,36 @@ rating, original language, and the release date.
 - API: TMDB REST API
 - Tools / Others: Git, GitHub
 
-📥 Installation/Setup
+
+
+###
+
+
+
+📥 Set Up
 1) Clone the repository
    ``````bash
          git clone https://github.com/tanzina8/Movie-App.git
          cd Movie-App
+   
+2) Setup the backend server
+   ``````bash
+         cd backend
+         npm install
+   
+3) Create a .env file in the backend folder
+   ``````
+         VITE_TMDB_API_KEY=your_api_key_here
+
+4) Start the backend server
+   ``````
+         node index.js
+
+5) Start the frontend
+   ``````
+         cd ../movie_app
+         npm install
+         npm run dev
+
+
 
