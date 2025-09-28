@@ -1,5 +1,6 @@
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/6055e3c1-299d-48a4-9cef-be8af45c1f94" />
+
 🎬 Movie App
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/6055e3c1-299d-48a4-9cef-be8af45c1f94" />
 
 A full-stack movie app built with React, Node.js, and Tailwind CSS. The app displays the top trending movies in Canada,  
 along with over 100,000+ movies/shows with a simple search fucntion. Each movie card shows key attributes including the title, poster,
